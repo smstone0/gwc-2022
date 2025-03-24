@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px; /* sets all to no margin or padding */
+}
+
+body {
+  background-color: #F7F6E4; 
+}
+
+h1 {
+  color: #4e3e75;
+  font-family: Tahoma;
+  font-weight: 700;
+  padding-top: 2.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+main {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#name {
+  text-decoration: overline underline;
+  text-decoration-thickness: 3px;
+  font-weight: 600;
+  color: #4e3e75;
+  font-size: 20px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 49%; /**/
+}
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  border: 3.5px solid #4e3e75;
+  display: inline-block; /**/
+  float: right; /**/
+}
+
+#home-link {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: right;
+  background-color: #4e3e75;
+}
+
+#portfolio-link {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  text-align: left;
+  background-color: #4e3e75
+}
+
+a {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  color: #F7F6E4;
+  font-size: 130%;
+  font-family: Tahoma;
+}
+
+a:hover {
+  background-color: #726594;
+}
